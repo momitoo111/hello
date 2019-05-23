@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view>
+  <image mode="aspectFill" src="{{imagePath}}"></image>
+</view>
+<!-- 结果 -->
+<view class="result">
+   <text>性别: 男</text>
+   <text>年龄: 19</text>
+   <text>颜值: 90</text>
+</view>
+
+<!-- 操作按钮 -->
+<button type="primary" bind:tap="click">选择一张照片</button>
